@@ -1,0 +1,18 @@
+set scrolloff=10
+set number relativenumber
+
+map gi :vsc Edit.GoToImplementation<cr>
+map gd :vsc Edit.GoToDefinition<cr>
+map gr :vsc Edit.FindAllReferences<cr>
+
+map M :vsc Edit.PreviousMethod<cr>
+map m :vsc Edit.NextMethod<cr>
+
+map qq :vsc Window.CloseDocumentWindow<cr>
+
+map <c-o> :vsc View.NavigateBackward<cr>
+map <c-i> :vsc View.NavigateForward<cr>
+
+map <c-q> :vsc Window.QuickLaunch<cr>
+#map <c-e> :vsc Refactor.Rename<cr>
+map cf :vsc SolutionExplorer.SyncWithActiveDocument<cr>
