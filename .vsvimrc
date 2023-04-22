@@ -14,5 +14,5 @@ map <c-o> :vsc View.NavigateBackward<cr>
 map <c-i> :vsc View.NavigateForward<cr>
 
 map <c-q> :vsc Window.QuickLaunch<cr>
-#map <c-e> :vsc Refactor.Rename<cr>
+map <c-e> :vsc Refactor.Rename<cr>
 map cf :vsc SolutionExplorer.SyncWithActiveDocument<cr>
