@@ -1,5 +1,3 @@
-"" Source your .vimrc
-"source ~/.vimrc
 
 set scrolloff=10
 set number relativenumber
@@ -26,3 +24,6 @@ nnoremap cf :action SelectInProjectView<cr>
 nnoremap sb :action ViewStatusBar<cr>
 nnoremap tb :action ToggleLineBreakpoint<cr>
 nnoremap <c-e> :action RenameElement<cr>
+
+nnoremap <c-l> :action NextSplitter<cr>
+nnoremap <c-h> :action PrevSplitter<cr>
