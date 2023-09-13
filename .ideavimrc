@@ -2,7 +2,7 @@
 set scrolloff=10
 set number relativenumber
 
-map gi <Action>(GotoImplementation)
+map gI <Action>(GotoImplementation)
 map gr <Action>(FindUsages)
 map m <Action>(MethodDown)
 map M <Action>(MethodUp)
