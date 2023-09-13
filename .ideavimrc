@@ -6,6 +6,7 @@ map gi <Action>(GotoImplementation)
 map gr <Action>(FindUsages)
 map m <Action>(MethodDown)
 map M <Action>(MethodUp)
+map sd <Action>(SafeDelete)
 map qq <Action>(CloseContent)
 map gb <Action>(Annotate)
 
