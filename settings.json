@@ -85,7 +85,7 @@
             },
             {
                 "antialiasingMode": "cleartype",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe\"",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "guid": "{7a844f13-4fca-44f7-a637-bf0e4fd51b3f}",
@@ -113,6 +113,12 @@
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022 [Preview]",
                 "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "hidden": false,
+                "name": "PowerShell 7 Preview",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
