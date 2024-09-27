@@ -15,10 +15,10 @@ class DbContext {
 }
 
 $contexts = (
-[DbContext]::new("SqLiteMigrations", "SqLiteApplicationDbContext"),
-[DbContext]::new("MySqlMigrations","MySqlApplicationDbContext"),
-[DbContext]::new("MsSqlMigrations","MsSqlApplicationDbContext"),
-[DbContext]::new("PostgreMigrations","PostgreApplicationDbContext")
+#[DbContext]::new("SqLiteMigrations", "SqLiteApplicationDbContext"),
+[DbContext]::new("MySqlMigrations","MySqlApplicationDbContext")
+#[DbContext]::new("MsSqlMigrations","MsSqlApplicationDbContext"),
+#[DbContext]::new("PostgreMigrations","PostgreApplicationDbContext")
 )
 
 cp $directory\\CommonSettings.targets $directory\\Mapd.Server\
