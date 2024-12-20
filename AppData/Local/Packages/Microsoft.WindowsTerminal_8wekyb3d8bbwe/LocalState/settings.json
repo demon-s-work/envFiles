@@ -90,7 +90,7 @@
             },
             {
                 "antialiasingMode": "cleartype",
-                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "guid": "{7a844f13-4fca-44f7-a637-bf0e4fd51b3f}",
