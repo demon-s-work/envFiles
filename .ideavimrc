@@ -27,3 +27,6 @@ nnoremap grn :action RenameElement<cr>
 
 nnoremap <c-l> :action NextSplitter<cr>
 nnoremap <c-h> :action PrevSplitter<cr>
+
+nnoremap gS :action SearchEverywhere<cr>
+nnoremap g. :action ShowIntentionActions<cr>
